@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDateFormatter", "FileDateModifer\FileDateFormatter.csproj", "{CEBA2B20-F5D1-44C7-BEE8-AFCA564F0362}"
-EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FormatterSetup", "FormatterSetup\FormatterSetup.vdproj", "{12085087-6201-429F-959D-5D42FB6B6E07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDateFormatter", "FileDateFormatter\FileDateFormatter.csproj", "{ECA9BAA9-1E80-4238-80AE-2D84684EA309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,22 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CEBA2B20-F5D1-44C7-BEE8-AFCA564F0362}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{CEBA2B20-F5D1-44C7-BEE8-AFCA564F0362}.Debug|Any CPU.Build.0 = Release|Any CPU
-		{CEBA2B20-F5D1-44C7-BEE8-AFCA564F0362}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CEBA2B20-F5D1-44C7-BEE8-AFCA564F0362}.Release|Any CPU.Build.0 = Release|Any CPU
 		{12085087-6201-429F-959D-5D42FB6B6E07}.Debug|Any CPU.ActiveCfg = Debug
 		{12085087-6201-429F-959D-5D42FB6B6E07}.Release|Any CPU.ActiveCfg = Release
 		{12085087-6201-429F-959D-5D42FB6B6E07}.Release|Any CPU.Build.0 = Release
+		{ECA9BAA9-1E80-4238-80AE-2D84684EA309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA9BAA9-1E80-4238-80AE-2D84684EA309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA9BAA9-1E80-4238-80AE-2D84684EA309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA9BAA9-1E80-4238-80AE-2D84684EA309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26260CC6-A752-43E5-9152-03A9DFFC6069}
-	EndGlobalSection
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal
